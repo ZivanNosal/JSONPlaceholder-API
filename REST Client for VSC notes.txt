@@ -1,11 +1,11 @@
 ***REST Client***
 
-REST client settings: C:\Users\HP\.vscode\extensions\humao.rest-client-0.25.1
+REST client settings: C:\Users\someUser\.vscode\extensions\humao.rest-client-0.25.1
 doc: https://marketplace.visualstudio.com/items?itemName=humao.rest-client
 
 Ctrl+Alt+L - rerun the last request (refresh response)
 Ctrl+Alt+H - request history
-full response save default: C:\Users\HP\.rest-client\responses\raw
+full response save default: C:\Users\someUser\.rest-client\responses\raw
 
 .http file syntax:
 3 or more hashes (#) - to separate requests
@@ -26,7 +26,7 @@ variables:
 		C) Prompt Variables 
 		D) Request Variables
 		- syntax in .http: {{CustomVariableName}}
-		- priority if the same name used for different levels: oposite direction - 1. request, 2. file, 3. environment (when the same name used for custom variables, request variables takes higher resolving precedence over file variables, file variables takes higher precedence over environment variables )
+		- priority if the same name used for different levels: oposite direction - 1. request, 2. file, 3. environment (when the same name used for custom variables, request variables takes higher resolving precedence over file variables, file variables takes higher precedence over environment variables)
 	System Variables
 	- {{$SystemVariableName}}
 
@@ -51,3 +51,6 @@ variables:
 REST Client itself doesn´t have possibility to send more requests in sequence, see open issues in Huachao github:
 https://github.com/Huachao/vscode-restclient/issues/444
 https://github.com/Huachao/vscode-restclient/issues/724
+https://github.com/Huachao/vscode-restclient/issues/199
+...
+and no more development planned...
